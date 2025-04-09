@@ -21,12 +21,17 @@ const nextConfig = {
     parallelServerBuildTraces: true,
     parallelServerCompiles: true,
   },
+
+  // ✅ Add environment variables here
+  env: {
+    OPENAI_API_KEY: process.env.OPENAI_API_KEY,
+    OPENWEATHER_API_KEY: process.env.OPENWEATHER_API_KEY,
+    GNEWS_API_KEY: process.env.GNEWS_API_KEY,
+  },
 }
 
 if (userConfig) {
-  // ESM imports will have a "default" property
   const config = userConfig.default || userConfig
-
   for (const key in config) {
     if (
       typeof nextConfig[key] === 'object' &&
