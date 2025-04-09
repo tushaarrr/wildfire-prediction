@@ -26,7 +26,7 @@ app = FastAPI()
 # Update CORS settings
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://firesightapp.vercel.app"],  # Frontend URL
+    allow_origins=["https://firesightapp.vercel.app"],  # Frontend 
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
