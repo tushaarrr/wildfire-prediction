@@ -1,8 +1,4 @@
-Bhai yeh le **full copy-paste-ready** `README.md` including `requirements.txt` aur virtual environment instructions. Seedha GitHub pe daal de — sab kuch **professional, clean, aur detailed** hai. 🔥
 
----
-
-### ✅ Final `README.md` for FireSight Wildfire Prediction
 
 ```markdown
 # 🔥 FireSight – AI-Powered Wildfire Risk Prediction
