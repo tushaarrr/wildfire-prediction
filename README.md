@@ -74,16 +74,6 @@ uvicorn main:app --reload --port 8001
 - 🤖 AI Chat assistant (OpenAI GPT-3.5)
 - 📰 Climate-related news widget (GNews API)
 
----
-
-## 👥 Project Members
-
-- **Tushar Shandilya** – AI Model, FastAPI Backend, Frontend Integration  
-- **Nandini Goyal** – UI/UX Design, Data Cleaning, Report & Testing  
-
-> 🏫 Douglas College – CSIS 4260 (AI Applications), Winter 2025
-
----
 
 ## 🚀 Live Demo
 
