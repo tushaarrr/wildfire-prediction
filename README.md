@@ -60,7 +60,7 @@ uvicorn main:app --reload --port 8001
 
 - **Algorithm:** Random Forest Classifier  
 - **Input Features:** temperature, humidity, wind speed, rainfall, latitude, longitude  
-- **Accuracy:** ~60–70% (on real-world weather data)  
+- **Accuracy:** ~70% (on real-world weather data)  
 - **Limitations:** Model does not account for human behavior or sudden local events (e.g., campfires, dry lightning)
 
 ---
